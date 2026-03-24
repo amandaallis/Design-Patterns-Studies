@@ -6,7 +6,7 @@ import java.util.Map;
 public class CacheService implements Icache {
     private Map<String, String> valueCache;
 
-    private CacheService() {
+    public CacheService() {
         valueCache = new HashMap<>();
     }
 
